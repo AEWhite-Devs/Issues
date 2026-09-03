@@ -1,0 +1,33 @@
+name: Se me ocurre algo
+description: Una idea para que la aplicación sirva mejor.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Antes de escribir
+
+        **Esto es público**, así que no pongas datos tuyos ni de nadie.
+
+  - type: textarea
+    id: que-te-gustaria
+    attributes:
+      label: ¿Qué te gustaría poder hacer?
+    validations:
+      required: true
+
+  - type: textarea
+    id: para-que
+    attributes:
+      label: ¿Qué problema te resolvería?
+      description: Nos ayuda más saber qué te está costando trabajo que la solución concreta. A veces hay una forma mejor de resolverlo.
+    validations:
+      required: false
+
+  - type: textarea
+    id: como-lo-haces-ahora
+    attributes:
+      label: ¿Cómo te las arreglas ahora?
+      placeholder: Llamo al chofer por teléfono para decirle dónde estoy.
+    validations:
+      required: false
