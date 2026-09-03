@@ -56,6 +56,18 @@ body:
     validations:
       required: false
 
+  - type: dropdown
+    id: cuantas-veces
+    attributes:
+      label: ¿Te ha pasado más de una vez?
+      description: Saber si se repite o fue una vez suelta es lo que más ayuda a encontrarlo.
+      options:
+        - Pasa siempre que lo intento
+        - Pasa a veces
+        - Me pasó una sola vez
+    validations:
+      required: false
+
   - type: input
     id: cuando
     attributes:
@@ -69,8 +81,8 @@ body:
     id: telefono
     attributes:
       label: ¿Con qué teléfono?
-      description: Marca y modelo, y la versión de la aplicación si la sabes. El número de teléfono no, que esto es público.
-      placeholder: Xiaomi Redmi 9, versión 1.4
+      description: Marca y modelo, y la versión de la aplicación, que sale al final de la pantalla de ajustes. El número de teléfono no, que esto es público.
+      placeholder: Xiaomi Redmi 9, Android 11, aplicación 1.4
     validations:
       required: false
 
@@ -79,5 +91,5 @@ body:
     attributes:
       label: Antes de enviarlo
       options:
-        - label: He mirado lo que escribí y no lleva mi carné, mi teléfono, mi contraseña ni fotos de documentos.
+        - label: He mirado lo que escribí y no lleva carnés, teléfonos, direcciones, contraseñas ni fotos de documentos —ni míos ni de nadie.
           required: true
