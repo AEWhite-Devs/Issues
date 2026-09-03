@@ -1,0 +1,83 @@
+name: Algo no funciona
+description: Cuéntanos qué falló para que podamos arreglarlo.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      # Arriba del todo y no al final: para cuando alguien llegue abajo, ya
+      # habrá escrito lo que iba a escribir.
+      value: |
+        ### Antes de escribir
+
+        **Esto es público.** Lo que pongas aquí lo puede leer cualquiera, hoy y
+        dentro de diez años, y queda en el historial aunque después lo borres.
+
+        No pongas tu carné de identidad, tu teléfono, tu dirección, tu
+        contraseña ni fotos de documentos. Si hace falta algo de eso para
+        entender el problema, dilo y te lo pedimos por privado.
+
+  - type: dropdown
+    id: donde
+    attributes:
+      label: ¿Dónde te pasó?
+      options:
+        - En la aplicación, como pasajero
+        - En la aplicación, como chofer
+        - En la página web
+        - No estoy seguro
+    validations:
+      required: true
+
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: ¿Qué pasó?
+      description: Cuéntalo con tus palabras. No hace falta que sea técnico.
+      placeholder: Al darle a pedir un viaje, la pantalla se quedó en blanco.
+    validations:
+      required: true
+
+  - type: textarea
+    id: que-esperabas
+    attributes:
+      label: ¿Qué esperabas que pasara?
+    validations:
+      required: false
+
+  - type: textarea
+    id: como-repetirlo
+    attributes:
+      label: ¿Cómo lo repetimos?
+      description: Los pasos que diste, en orden. Es lo que más ayuda a arreglarlo.
+      placeholder: |
+        1. Abrí la aplicación
+        2. Puse el destino
+        3. Le di a pedir viaje
+    validations:
+      required: false
+
+  - type: input
+    id: cuando
+    attributes:
+      label: ¿Cuándo fue?
+      description: La fecha y, si te acuerdas, la hora. Nos sirve para buscarlo en los registros.
+      placeholder: El 2 de septiembre por la mañana
+    validations:
+      required: false
+
+  - type: input
+    id: telefono
+    attributes:
+      label: ¿Con qué teléfono?
+      description: Marca y modelo, y la versión de la aplicación si la sabes. El número de teléfono no, que esto es público.
+      placeholder: Xiaomi Redmi 9, versión 1.4
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: sin-datos-personales
+    attributes:
+      label: Antes de enviarlo
+      options:
+        - label: He mirado lo que escribí y no lleva mi carné, mi teléfono, mi contraseña ni fotos de documentos.
+          required: true
