@@ -2,14 +2,14 @@
 #
 # Este repositorio es público: cualquiera lee lo que se escribe aquí, y para
 # siempre. Las plantillas existen sobre todo para avisar de eso antes de que
-# alguien pegue una foto de su carné o el número de su teléfono, y un issue en
-# blanco se salta ese aviso.
+# alguien pegue una foto de un carné o un teléfono, y un issue en blanco se
+# salta ese aviso.
 blank_issues_enabled: false
 
 contact_links:
-  - name: Problema con mi cuenta
-    url: https://github.com/AEWhite-Devs/Issues/blob/main/README.md#mi-cuenta
-    about: Si el problema es con tu cuenta, tus datos o un viaje concreto, escríbenos en privado. Aquí no, que lo lee todo el mundo.
-  - name: Reportar un problema de seguridad
-    url: https://github.com/AEWhite-Devs/Issues/blob/main/README.md#seguridad
-    about: Los fallos de seguridad no se publican. Cuéntanoslo en privado y te respondemos.
+  # El formulario privado de GitHub, no un correo. Va directo al equipo, sin
+  # pasar por la parte pública del repositorio, y quien lo usa no necesita
+  # saber ninguna dirección: es un botón.
+  - name: He encontrado un fallo de seguridad
+    url: https://github.com/AEWhite-Devs/Issues/security/advisories/new
+    about: Si encontraste una forma de entrar donde no debías o de ver datos de otra persona, cuéntalo por aquí. Es privado y no se publica.

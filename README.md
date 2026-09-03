@@ -16,19 +16,11 @@ ponerlo y te lo pedimos en privado.
 
 ## Mi cuenta
 
-Si el problema es con **tu cuenta, tus datos o un viaje concreto**, esto no es
-el sitio: escríbenos en privado a la dirección de soporte y lo miramos con tu
-nombre delante, sin publicarlo.
-
-<!-- PENDIENTE: poner aquí la dirección de soporte real. Sin ella, este párrafo
-     manda a la gente a ninguna parte. -->
+Si el problema es con **tu cuenta o con un viaje concreto**, dínoslo por donde
+ya nos hablas. Eso se mira con tu nombre delante y no tiene por qué quedar
+publicado.
 
 ## Seguridad
 
-**Un fallo de seguridad no se publica.** Si encontraste una forma de entrar
-donde no debías, de ver datos de otra persona o de saltarte una comprobación,
-escríbenos en privado antes de contarlo en ningún sitio. Te respondemos, lo
-arreglamos y te decimos cuándo está resuelto.
-
-<!-- PENDIENTE: dirección de seguridad, o activar GitHub Security Advisories en
-     los repositorios donde vive el código. -->
+**Un fallo de seguridad no se publica.** Se cuenta por el formulario privado:
+ver [SECURITY.md](SECURITY.md).
