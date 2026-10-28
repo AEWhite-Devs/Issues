@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg">
+  <img alt="Issues · AEWhite Devs" src=".github/assets/banner-light.svg" width="100%">
+</picture>
+
 # Issues
 
 Aquí se reportan problemas y se proponen ideas para **Project Condor**.
